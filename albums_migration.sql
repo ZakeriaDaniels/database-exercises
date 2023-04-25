@@ -1,5 +1,5 @@
 USE codeup_test_db;
-CREATE TABLE albums (
+CREATE TABLE IF NOT EXISTS albums (
                         id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
                         artist VARCHAR(255),
                         name VARCHAR(255),
